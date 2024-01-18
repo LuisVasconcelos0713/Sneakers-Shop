@@ -1,0 +1,37 @@
+.Header {
+  display: flex;
+  align-items: center;
+  padding: 20px 10px 20px 38px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.531);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  width: 99.39453543354vw;
+  justify-content: space-between;
+}
+
+.navbar-text {
+  font-size: 30px;
+  letter-spacing: -0.47px;
+  text-shadow: 8px 8px #7f839d;
+  font-family: "ObviouslyBlack";
+  margin-bottom: 10px;
+  color: white;
+}
+
+.navbar-icon {
+  color: white;
+  font-size: 28px;
+}
+.shoppingcartq {
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  height: 22px;
+  width: 20px;
+  float: right;
+  font-size: 14px;
+  margin: 10px 0px 10px 0px;
+}

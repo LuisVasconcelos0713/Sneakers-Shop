@@ -1,0 +1,27 @@
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(4, 30, 52, 0.017);
+  width: 99.3vw;
+  height: 30px;
+}
+.footer-container-text {
+  color: white;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.prefooter-container {
+  border-top: 1px solid rgba(255, 255, 255, 0.531);
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 99.3vw;
+}
+.Social-button {
+  color: white;
+  font-size: 30px;
+  margin: 10px;
+}

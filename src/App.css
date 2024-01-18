@@ -1,0 +1,210 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "ObviouslyBlack";
+  src: url("fonts/Obviously-Black.otf") format("opentype");
+}
+@font-face {
+  font-family: "ObviouslySemiBold";
+  src: url("fonts/Obviously-Semibold.otf") format("opentype");
+}
+@font-face {
+  font-family: "ObviouslyMedium";
+  src: url("fonts/Obviously-Medium.otf");
+}
+@font-face {
+  font-family: "ObviouslyLight";
+  src: url("fonts/Obviously-Light.otf");
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container {
+}
+section {
+  color: white;
+  padding-top: 3px;
+  /*border-radius: 10px;
+  margin-bottom: 10px;*/
+}
+
+section div {
+  /*background-color: #3e55a1;*/
+  padding: 21px;
+  padding-right: 3px;
+  padding-top: 24px;
+  border-radius: 8px;
+}
+
+section h2 {
+  font-size: 54px;
+  letter-spacing: -0.47px;
+  text-shadow: 8px 8px #7f839d;
+  font-family: "ObviouslyBlack";
+  margin-bottom: 10px;
+  /*font-style: bold;*/
+}
+
+section p {
+  font-size: 18px;
+  font-family: "ObviouslySemiBold";
+  letter-spacing: -0.18px;
+  color: #a1a1aab6;
+}
+
+.linhasec1css {
+  width: 99.39453543354vw;
+  /*border: 1px solid rgba(255, 255, 255, 0.531);*/
+  display: block;
+  margin: 54px 0 0 -21px;
+}
+
+.linhasec2css {
+  width: 99.39453543354vw;
+  border: 1px solid rgba(255, 255, 255, 0.531);
+  display: block;
+  margin: 0 0 54px -21px;
+}
+
+section ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+section ul li {
+  transition: transform 0.3s;
+}
+
+section ul li img:hover {
+  transform: scale(1.1);
+}
+
+.products-list img {
+  width: 235.453543354px;
+  height: 254px;
+  border-radius: 9.453543354px;
+}
+
+.products-list2 img {
+  width: 320.453543354px;
+  height: 340px;
+  border-radius: 9.453543354px;
+  margin: 10px;
+}
+
+.channel-list img {
+  border-radius: 50%;
+  width: 70px;
+  height: 0;
+  border: 1px solid #443e54;
+}
+
+section h3 {
+  font-size: 30px;
+  letter-spacing: -0.47px;
+  text-shadow: 8px 8px #5c67af;
+  font-family: "ObviouslyBlack";
+  margin-bottom: 10px;
+}
+section h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  letter-spacing: 3.453543354px;
+  font-family: "ObviouslyLight";
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  max-width: 300px;
+}
+
+.ajustarli {
+  margin: 0px 45px 30px -20px;
+  border-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ajustarli button {
+  margin-top: 20px;
+}
+.LUISESButton {
+  margin-top: 0px;
+  font-family: "ObviouslyBlack";
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  line-height: 1;
+  padding: 1rem 2.5rem;
+  border: 5.453534345px solid #5c67afb9;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 12px 12px #5c67af;
+}
+.LUISESButton:hover {
+  color: #000;
+  transition: 0.5s;
+  translate: 12px 12px;
+  box-shadow: 4px 4px #5c67af;
+}
+.LUISESButton:active {
+  background-color: #545454;
+  transition: 0ms;
+}
+a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+a:active {
+  color: #000;
+  text-decoration: none;
+}
